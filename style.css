@@ -1,3 +1,9 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -40,7 +46,9 @@ html{
   /*
    * Dummy devices (replace them with your own or something else entirely!)
    */
-  
+  .front{
+    color: #fff;
+  }
   .product-device {
     position: absolute;
     right: 10%;
